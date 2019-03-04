@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Table(name="USUARIOS", schema="PROYECTO")
 public class Usuario {
 	
+	
 	@Id
 	@Column(name="DAS", unique=true, nullable=false)
 	private int das;
